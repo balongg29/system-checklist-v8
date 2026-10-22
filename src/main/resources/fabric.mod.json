@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "farmlist",
+  "version": "${version}",
+  "name": "Simple Checklist",
+  "description": "Farm checklists with clickable items, inventory scan, building-block picking, and an item catalog. Opens with a keybind (default K).",
+  "authors": [
+    "Michael Salomon"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.farmlist.FarmListClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
